@@ -1119,5 +1119,8 @@ color: #92989F;
     .home{
         padding: 6px;
     }
+     section{
+        overflow-x: hidden;
+    }
 }
 
