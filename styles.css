@@ -1,0 +1,1123 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lavishly+Yours&family=Playpen+Sans:wght@100..800&family=Playwrite+DE+Grund&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    overflow-x: hidden;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.nav-bar {
+    height: 70px;
+    padding: 16px;
+    background-color: #0B9586;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.nav-bar ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    list-style-type: none;
+    width: 506px;
+    gap: 8px;
+    cursor: pointer;
+}
+.home{
+box-sizing: border-box;
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 8px 28px;
+gap: 10px;
+background: rgba(0, 0, 0, 0.06);
+border-bottom: 3px solid rgba(0, 0, 0, 0.3);
+border-radius: 5px;
+}
+.call-us{
+    text-align: right;
+    line-height: 8px;
+    width: 283px;
+}  
+
+.call-us span{
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.hero{
+    background-image: url('assets/solar-panels-meadow\ 1.png');
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    gap: 12px;
+    color: white;
+    height: 650px;
+    padding-left: 100px;
+    padding-top: 60px;
+}
+
+.progress{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* Group 2 */
+    margin-bottom: 20px;
+  
+    width: 332.83px;
+    height: 24.77px;
+
+
+}
+
+.progress-line{
+    width: 250.60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.gray-part{
+width: 220.59px;
+height: 0px;
+border: 3.75px solid #575757;
+
+}
+
+.white-part{
+    /* Line 2 */
+width: 89.01px;
+height: 0px;
+border: 3.75px solid #FFFFFF;
+
+}
+
+.progress p{
+    /* 04 */
+
+
+width: 24.77px;
+height: 17.03px;
+
+font-family: 'Akazan';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 21px;
+letter-spacing: 0.9375px;
+
+color: #FFFFFF;
+
+
+}
+.hero-content{
+max-width: 729px;
+}
+
+.hero-content h2 {
+    /* Solar Panel Installers In Plymouth */
+
+font-style: normal;
+font-weight: 600;
+font-size: 52px;
+line-height: 63px;
+letter-spacing: -0.02em;
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+}
+
+.hero-content p{
+    /* Fueled is an award-winning technology consultancy that transforms businesses by generating ideas, building products, and accelerating growth. */
+
+width: 729px;
+height: 90px;
+
+/* Text xl/Semibold */
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 30px;
+/* or 150% */
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+}
+
+.hero-buttons{
+    /* Frame 53 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 24px;
+
+width: 405px;
+height: 41px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+}
+
+.call-us-btn{
+    /* Frame 49 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 12px 34px;
+gap: 10px;
+border: 0;
+width: 173px;
+height: 41px;
+outline: none;
+background: #3CAB90;
+border-radius: 109px;
+color: white;
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+
+.request-call-btn{
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 12px 34px;
+gap: 10px;
+
+width: 208px;
+height: 41px;
+border: 0;
+background: #FFBB1C;
+border-radius: 109px;
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+}
+
+/* section 1 styles */
+
+.sub-hero{
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+justify-content: center;
+padding: 80px 30px;
+gap: 23px;
+flex-wrap: wrap;
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+.sub-hero-content{
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: start;
+justify-content: center;
+padding: 0px;
+margin: 0;
+max-width: 594px;
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+.sub-hero-content h2{
+font-weight: 600;
+font-size: 42px;
+line-height: 51px;
+letter-spacing: -0.02em;
+width: 90%;
+/* Gray/900 */
+color: #101828;
+}
+
+.sub-hero-content p{
+width: 92%;
+/* Text md/Regular */
+font-weight: 400;
+font-size: 15px;
+line-height: 24px;
+/* or 150% */
+
+/* Gray/600 */
+color: #475467;
+}
+
+.sub-hero-content ul{
+    /* 100+ leading universities and companies */
+width: 453px;
+list-style-type: none;
+/* Text xl/Semibold */
+font-weight: 600;
+font-size: 20px;
+line-height: 35px;
+/* identical to box height, or 150% */
+padding: 0;
+/* Gray/900 */
+color: #101828;
+}
+.sub-hero-content ul li span{
+width: 35px;
+height: 23px;
+font-family: 'Akazan';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 23px;
+letter-spacing: 4px;
+color: #84BD3A;
+}
+.sub-hero-images{
+width: 518.52px;
+height: 552px;
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+.sub-hero-images svg{
+    position: relative;
+    bottom: 230px;
+    right: 50px;
+}
+.power{
+    background-image: url('assets/8116\ 1.png');
+    background-size: cover;
+    /* CTA Section */
+    background-repeat: no-repeat;
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: start;
+padding: 0px 100px;
+gap: 10px;
+height: 500px;
+max-width: 100%;
+color: white;
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+.power-content{
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 0px;
+width: 578px;
+gap: 14px;
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+z-index: 2;
+}
+
+.power-content h2{
+width: 678px;
+font-weight: 600;
+font-size: 42px;
+line-height: 51px;
+/* identical to box height */
+letter-spacing: -0.02em;
+color: #FFFFFF;
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+}
+
+.power-content p {
+    /* If you need advice then give us a call on 07745593882 or hit the button below to request a call back! */
+font-weight: 500;
+font-size: 20px;
+line-height: 140%;
+color: #FFFFFF;
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+}
+
+.solar-kit{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    padding: 80px 30;
+    overflow-x: hidden;
+}
+.solar-kit-content{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.solar-kit-content h2{
+font-weight: 600;
+font-size: 42px;
+line-height: 51px;
+/* identical to box height */
+letter-spacing: -0.02em;
+/* Gray/900 */
+color: #101828;
+}
+
+.solar-kit-content p{
+font-weight: 400;
+line-height: 24px;
+text-align: center;
+color: #475467;
+max-width: 880px;
+}
+.box-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+    flex-wrap: wrap;
+    margin-bottom: 60px;
+    padding:10px 30px;
+}
+
+.box{
+    width: 358px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    height: 100%;
+    justify-content: space-between;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.05);
+}
+.box-content{
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 20px;
+width: 358.67px;
+}
+
+.box-content h3{
+font-weight: 600;
+font-size: 20px;
+line-height: 30px;
+color: #101828;
+}
+.box-content p{
+width: 90%;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+color: #475467;
+}
+.box-content a{
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 8px;
+width: auto;
+/* Text */
+font-weight: 600;
+font-size: 16px;
+line-height: 24px;
+color: #3CAB90;
+}
+
+/* Repairs Secion */
+.repairs{
+    background-image: url('assets/8116\ 1\ \(1\).png');
+    background-size: cover;
+    padding: 40px;
+}
+.repairs-content{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 44px;
+color: white;
+position: relative;
+width: 700px;
+height: 250px;
+left: calc(50% - 770px/2);
+top: calc(50% - 311px/2 + 1px);
+text-align: center;
+background: rgba(0, 0, 0, 0.57);
+backdrop-filter: blur(12px);
+/* Note: backdrop-filter has minimal browser support */
+border-radius: 12px;
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+z-index: 2;
+}
+.repairs-content h2{
+font-weight: 600;
+font-size: 42px;
+line-height: 51px;
+/* identical to box height */
+text-align: center;
+letter-spacing: -0.02em;
+color: #FFFFFF;
+}
+.repairs-content p{
+font-weight: 500;
+font-size: 20px;
+line-height: 140%;
+/* or 28px */
+text-align: center;
+color: #FFFFFF;
+}
+.energy{
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    justify-content: space-between;
+    gap:12px;
+    padding: 80px 40px;
+    flex-wrap: wrap;
+}
+
+.energy-content{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    width: 345px;
+    margin-bottom: 40px;
+}
+
+.energy-content h2{
+font-weight: 600;
+font-size: 40px;
+line-height: 45px;
+letter-spacing: -0.02em;
+color: #101828;
+margin: 20px 0 ;
+}
+.energy-content p{
+font-weight: 400;
+font-size: 18px;
+line-height: 28px;
+width: 340px;
+color: #475467;
+margin: 0;
+}
+.energy-boxes{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: start;
+    justify-content: center;
+    gap: 30px;
+    max-width: 818px;
+}
+
+.energy-box{
+    padding: 24px;
+    background: rgba(60, 171, 144, 0.05);
+    border: 1px solid #3CAB90;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.05);
+    border-radius: 12px;
+    margin-bottom: 10px;
+    width: 330px;
+    min-height: 400px;
+}
+
+.value-box{
+    background: rgba(60, 171, 144, 0.05);
+    border: 1px solid #3CAB90;
+    border-radius: 12px;
+    height: 380px;
+    width: 330px;
+    padding: 20px;
+}
+
+.feedback-content{
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    width: 330px;
+    }
+    
+    .feedback-content h2{
+    font-weight: 600;
+    font-size: 44px;
+    line-height: 51px;
+    letter-spacing: -0.02em;
+    /* Gray/900 */
+    color: #101828;
+    }
+    
+    .feedback-content p{
+    /* Text md/Regular */
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #1C1C1C;
+    }
+
+    .feedback-box{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 40px;
+    gap: 32px;
+    width: 708px;
+    background: rgba(60, 171, 144, 0.06);
+    border-radius: 24px;
+}
+
+.feedback-edge{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.feedback-edge span{
+font-weight: 700;
+font-size: 16px;
+line-height: 20px;
+color: #3CAB90;
+}
+
+.feedback-box p{
+font-weight: 400;
+font-size: 24px;
+line-height: 150%;
+color: #101828;
+max-width: 500px;
+}
+
+.pizza{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.pizza p{
+font-weight: 700;
+font-size: 16px;
+line-height: 19px;
+color: #1C1C1C;
+margin: 0;
+}
+
+.pizza span{
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+color: #1C1C1C;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 80px;
+    gap: 54px;
+    background: #283646;
+}
+
+.devide-footer{
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-content{
+    display: flex;
+    flex-direction: column;
+    gap: 34px;
+    justify-content: space-between;
+}
+
+.footer-content img{
+    width: 185px;
+    height: 65px;
+}
+.footer-content ul{
+    width: 100%;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 34px;
+    padding-left:0;
+    color: white;
+    flex-wrap: wrap;
+}
+
+.footer-input p{
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0.3px;
+color: #FFFFFF;
+
+}
+
+.footer-input div{
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: start;
+width: 390px;
+height: 48px;
+}
+
+.footer-input input{
+    width: 239px;
+    height: 44px;
+    font-weight: 400;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+    letter-spacing: 0.3px;
+    background: rgba(255, 255, 255, 0.09);
+    border-top-left-radius: 38px;
+    border-bottom-left-radius: 38px;
+    border: 0;
+    color: #92989F;
+    padding-left: 15px;
+    border: 1px solid #B3BDC7;
+}
+
+.footer-input button{
+    position: relative;
+    color: white;
+    z-index: 2;
+    right: 50px;
+    border: 0;
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 147px;
+    height: 48px;
+    background: #FFBB1C;
+    border-radius: 108px;
+}
+
+.copyright{
+font-weight: 400;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height, or 133% */
+text-align: left;
+letter-spacing: 0.257143px;
+color: #92989F;
+}
+
+
+/* media queries */
+@media (max-width: 1200px){
+    .devide-footer{
+        flex-direction: column;
+        align-items: start;
+        gap: 34px;
+    }
+    .nav-bar ul{
+        width: 400px;
+    }
+    .call-us{
+        width: 200px;
+    }
+    .call-us span{
+        font-size: 20px;
+    }
+}
+@media(max-width: 992px){
+    .devide-footer{
+        flex-direction: column;
+        align-items: start;
+        gap: 34px;
+    }
+    .nav-bar ul{
+        width: 400px;
+    }
+    .call-us{
+        width: 200px;
+    }
+    .call-us span{
+        font-size: 20px;
+    }
+    .power {
+        background-repeat: no-repeat;
+        padding: 30px;
+        height: auto;
+    }
+    .power-content{
+        width: 410px;
+        gap: 3px;
+    }
+    .power-content h2{
+        width: 300px;
+        line-height: 35px;
+        font-size: 26px;
+        margin: 0;
+    }
+
+    .power-content p{
+        font-size: 13px;
+        line-height: 125%;
+    }
+    .solar-kit-content{
+        width: 600px;
+     }
+     .repairs{
+        padding: 40px 0px;
+    }
+    .repairs-content{
+        padding: 44px;
+        width: 580px;
+        left: calc(50% - 670px / 2);
+    }
+    .repairs-content h2{
+        font-size: 30px;
+        line-height: 51px;
+    }
+    .repairs-content p{
+        font-size: 13px;
+        line-height: 140%;
+    }
+    .hero-content{
+        max-width: 600px;
+    }
+    .hero-content h2{
+        font-weight: 500;
+        font-size: 42px;
+    }
+    .hero-content p{
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 18px;
+        max-width: 600px;
+    }
+    .hero{
+        height: 540px;
+    }
+}
+
+@media (max-width: 767px) and (min-width: 601px){
+    .hero-content{
+        max-width: 400px;
+    }
+    .hero-content h2{
+        font-weight: 500;
+        font-size: 42px;
+    }
+    .hero-content p{
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 18px;
+        max-width: 500px;
+    }
+    .sub-hero-content{
+        width: 500px;
+    }
+    .sub-hero-images{
+        width: 440.52px;
+    }
+    .repairs-content{
+        width: 470px;
+        left:calc(50% - 578px / 2);
+    }
+    .hero{
+        height: 585px;
+    }
+    .nav-bar{
+        padding: 0px 10px;
+        justify-content: center;
+        font-size: 12px;
+    }
+    .nav-bar div svg{
+        width: 60px;
+        height: 60px;
+    }
+    .nav-bar ul{
+        gap: 0;
+    }
+    .call-us span{
+        font-size:17px;
+    }
+}
+/* @media (min-width: 601px){
+    
+} */
+
+
+
+@media(max-width: 600px) {
+    .hero{
+        height: 466px;
+        padding: 30px;
+        gap: 40px;
+    }
+    .progress{
+        width: 230px;
+    }
+    .progress-line{
+        width: 140px;
+    }
+    .hero-content{
+        max-width: 300px;
+    }
+    .hero-content h2{
+        font-size: 21px;
+        font-weight: 500;
+        line-height: 38px;
+    }
+    .hero-content p{
+        width: 300px;
+        font-weight: 200;
+        line-height: 22px;
+    }
+    .hero-buttons{
+        flex-direction: column;
+    }
+    .sub-hero{
+        padding: 30px;
+    }
+    .sub-hero-content{
+        max-width: 310px;
+    }    
+    .sub-hero-content h2{
+        font-weight: 600;
+        line-height: 37px;
+        font-size: 21px;
+    }    
+    .sub-hero-content p{
+        font-weight: 400;
+        font-size: 15px;
+    }    
+    .sub-hero-content ul{
+        width: 323px;
+        font-size: 12px;
+        line-height: 35px;
+    }
+    .sub-hero-content ul li span{
+        width: 323px;
+        font-size: 12px;
+        line-height: 35px;
+        font-size: 15px;
+        line-height: 23px;
+    }
+    .sub-hero-images{
+        width: 260px;
+        height: fit-content;
+    }
+    .sub-hero-images img{
+        width: 250px;
+        height: 290px;
+    }
+    .sub-hero-images svg{
+        width: 130px;
+        height: 100px;
+        bottom: 115px;
+        right: 26px;
+    }
+    .power-content{
+        width: 210px;
+        gap: 3px;
+    }
+    .power-content h2{
+        width: 219px;
+        font-size: 13px;
+        line-height: 35px;
+    }
+    .power-content p{
+        width: 210px;
+        font-size: 10px;
+        line-height: 125%;
+        font-weight: 200;
+    }
+    .power-content button{
+        padding: 12px;
+        width: 70px;
+        height: 20px;
+        font-size: 7px;
+    }
+    .solar-kit-content{
+        width: 300px;
+    }
+    .solar-kit-content h2{
+        font-size: 26px;
+        font-weight: 500;
+    }
+    .solar-kit-content p{
+        font-size: 12px;
+        line-height: 18px;
+        font-weight: 400;
+    }
+    .box{
+        width: 300px;
+    }
+    .box img{
+        width: 100%;
+    }
+    .box-content{
+        width: 280px;
+    }
+    .repairs-content{
+        width: 230px;
+        left: calc(50% - 270px / 2);
+        padding: 20px;
+    }
+    .repairs-content h2{
+        font-size: 14px;
+        line-height: 23px;
+        font-weight: 500;
+    }
+    .repairs-content p{
+        font-size: 9px;
+        line-height: 140%;
+        font-weight: 300;
+    }
+    .energy{
+        padding: 80px 20px;
+    }
+    .energy-content{
+        max-width: 300px;
+    }
+    .energy-content h2{
+        font-size: 23px;
+        line-height: 36px;
+    }
+
+    .energy-content p{
+        max-width: 300px;
+        font-size: 18px;
+    }
+    .energy-box{
+        width: 210px;
+        min-height: auto;
+    }
+    .energy-box img{
+        width: 210px;
+        min-height: auto;
+    }
+    .energy-box h3{
+        line-height: 23px;
+        font-size: 15px;
+    }
+    .energy-box p{
+        line-height: 20px;
+        font-size: 12px;
+    }
+    .energy-box a{
+        font-size: 13px;
+    }
+    .value-box{
+        height: auto;
+        width: 238px;
+    }
+    .feedback-box{
+        padding: 20px;
+        width: 285px;
+    }
+    .feedback-box p{
+        font-size: 16px;
+    }
+    .pizza{
+        flex-direction: column;
+        align-items: start;
+        gap: 30px;
+    }
+    .feedback-edge{
+        flex-direction: column;
+        align-items: start;
+        gap: 20px;
+    }
+    footer{
+        padding: 30px 5px;
+    }
+    .footer-input div{
+        width: 310px;
+    }
+    .footer-input button{
+        width: 113px;
+    }
+    .footer-input input{
+        width: 220px;
+    }
+    .footer-content ul{
+        justify-content: normal;
+    }
+    .nav-bar{
+        padding: 0px 10px;
+        justify-content: center;
+        font-size: 8px;
+    }
+    .nav-bar div svg{
+        width:60px;
+        height: 60px;
+    }
+    .nav-bar ul{
+        gap: 0;
+    }
+    .call-us span{
+        font-size: 8px;
+    }
+    .home{
+        padding: 6px;
+    }
+}
+
